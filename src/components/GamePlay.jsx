@@ -5,7 +5,7 @@ import TotalScore from './TotalScore'
 import NumberSelector from './NumberSelector'
 import RoleDice from './RoleDice'
 import { useState } from 'react'
-import ShowRules from './showRules'
+import ShowRules from './ShowRules'
 const GamePlay = () => {
   const [score,setScore]=useState(0);
   const [selectedNumber,setSelectedNumber]=useState();
